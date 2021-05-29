@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  
+    "name": "social media Launcher",
+    "description": "social Media extension",
+    "version": "0.0.1",
+    "icons": { "100": "worldwide.png" },
+  
+    "browser_action": {
+      "default_icon": "worldwide.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+  }
